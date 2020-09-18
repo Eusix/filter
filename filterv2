@@ -35,8 +35,10 @@ ItemDisplay[mp2 CLVL>19]:
 ItemDisplay[mp3 CLVL>25]:
 
 //Utilites
-ItemDisplay[tsc]: %BLUE%°%GRAY%tp
-ItemDisplay[isc]: %RED%°%GRAY%id
+ItemDisplay[tsc CLVL<41]: %GREEN%!%WHITE%TP
+ItemDisplay[tsc CLVL>40]:
+ItemDisplay[isc CLVL<41]: %GREEN%!%WHITE%ID
+ItemDisplay[isc CLVL>40]:
 ItemDisplay[vps CLVL<41]: %GREEN%!%WHITE%stamina
 ItemDisplay[vps CLVL>40]:
 ItemDisplay[wms CLVL<61]: %GREEN%!%WHITE%thaw
@@ -72,12 +74,12 @@ ItemDisplay[r03]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r04]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r05]: %TAN%%RUNENAME% [%RUNENUM%]
 ItemDisplay[r06]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r07]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r08]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r09]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r10]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r11]: %TAN%%RUNENAME% [%RUNENUM%]
-ItemDisplay[r12]: %TAN%%RUNENAME% [%RUNENUM%]
+ItemDisplay[r07]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
+ItemDisplay[r08]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
+ItemDisplay[r09]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
+ItemDisplay[r10]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
+ItemDisplay[r11]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
+ItemDisplay[r12]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r13]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r14]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
 ItemDisplay[r15]: %ORANGE%   %RUNENAME% [%RUNENUM%]   %ORANGE%
@@ -296,10 +298,10 @@ ItemDisplay[cm3 TABSK42>0]: %PURPLE%Dru Ele Skiller %GRAY%[%ILVL%]
 ItemDisplay[cm3 TABSK48>0]: %PURPLE%Trap Skiller %GRAY%[%ILVL%]
 
 //All Charms
-ItemDisplay[cm3 !ID ILVL>90]: %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
-ItemDisplay[cm1 !ID]: %NAME% %PURPLE%° %GRAY%[%ILVL%]
-ItemDisplay[cm2 !ID]: %NAME% %PURPLE%°° %GRAY%[%ILVL%]
-ItemDisplay[cm3 !ID]: %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
+ItemDisplay[cm3 !ID ILVL>90]: %PURPLE%°°° %NAME% %PURPLE%°°° %ORANGE%[%WHITE%%ILVL%%ORANGE%]
+ItemDisplay[cm1 !ID]: %PURPLE%° %NAME% %PURPLE%° %GRAY%[%ILVL%]
+ItemDisplay[cm2 !ID]: %PURPLE%°° %NAME% %PURPLE%°° %GRAY%[%ILVL%]
+ItemDisplay[cm3 !ID]: %PURPLE%°°° %NAME% %PURPLE%°°° %GRAY%[%ILVL%]
 ItemDisplay[cm3 ILVL>90]: %NAME% %ORANGE%[%WHITE%%ILVL%%ORANGE%]
 ItemDisplay[cm1 OR cm2 OR cm3]: %NAME% %GRAY%[%ILVL%]
 
